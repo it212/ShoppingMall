@@ -1,0 +1,193 @@
+{
+  "ecode": "0",
+  "emsg": "",
+  "data": {
+    "head": [
+      {
+        "id": 1,
+        "name": "音箱狂欢",
+        "imgUrl": "https://img.cniao5.com/5608f3b5Nc8d90151.jpg",
+        "type": 1
+      },
+      {
+        "id": 2,
+        "name": "手机国庆礼",
+        "imgUrl": "https://img.cniao5.com/5608eb8cN9b9a0a39.jpg",
+        "type": 1
+      },
+      {
+        "id": 3,
+        "name": "IT生活",
+        "imgUrl": "https://img.cniao5.com/5608cae6Nbb1a39f9.jpg",
+        "type": 1
+      },
+      {
+        "id": 4,
+        "name": "母婴萌宝",
+        "imgUrl": "https://img.cniao5.com/5608b7cdN218fb48f.jpg",
+        "type": 1
+      },
+      {
+        "id": 5,
+        "name": "国庆大礼包",
+        "imgUrl": "https://img.cniao5.com/560b5a7eN214306c8.jpg",
+        "type": 1
+      },
+      {
+        "id": 6,
+        "name": "手机大放假",
+        "imgUrl": "https://img.cniao5.com/560a409eN35e252de.jpg",
+        "type": 1
+      }
+    ],
+    "recommend": [
+      {
+        "cpOne":
+        {
+          "id":17,
+          "title":"手机专享",
+          "imgUrl":"https://img.cniao5.com/555c6c90Ncb4fe515.jpg"
+        },
+        "cpTwo":
+        {
+          "id":15,
+          "title":"闪购",
+          "imgUrl":"https://img.cniao5.com/560a26d2N78974496.jpg"
+        },
+        "cpThree":
+        {
+          "id":11,
+          "title":"团购",
+          "imgUrl":"https://img.cniao5.com/560be0c3N9e77a22a.jpg"
+        },
+        "id":1,
+        "title":"超值购",
+        "campaignOne":17,
+        "campaignTwo":15,
+        "campaignThree":11
+      },
+      {
+        "cpOne":
+        {
+          "id":5,
+          "title":"玩转十一",
+          "imgUrl":"https://img.cniao5.com/5608dc8eN07767119.jpg"
+        },
+        "cpTwo":
+        {
+          "id":6,
+          "title":"萌动双10季",
+          "imgUrl":"https://img.cniao5.com/5608da79Ncefc3eca.jpg"
+        },
+        "cpThree":
+        {"id":18,
+          "title":"联想品牌日",
+          "imgUrl":"https://img.cniao5.com/5608dbd5Ne9147a48.jpg"
+        },
+        "id":2,
+        "title":"热门活动",
+        "campaignOne":5,
+        "campaignTwo":6,
+        "campaignThree":18
+      },
+      {
+        "cpOne":
+        {
+          "id":2,
+          "title":"满减专区",
+          "imgUrl":"https://img.cniao5.com/560908d9N3d66adeb.jpg"
+        },
+        "cpTwo":
+        {
+          "id":3,
+          "title":"钟表榜",
+          "imgUrl":"https://img.cniao5.com/5608e342N9b9d3d51.jpg"
+        },
+        "cpThree":
+        {"id":4,
+          "title":"手机国庆礼",
+          "imgUrl":"https://img.cniao5.com/5608e4baN5b92922e.jpg"
+        },
+        "id":3,
+        "title":"有利可图",
+        "campaignOne":2,
+        "campaignTwo":3,
+        "campaignThree":4
+      },
+      {
+        "cpOne":
+        {
+          "id":8,
+          "title":"小食代",
+          "imgUrl":"https://img.cniao5.com/5603a148Na3635478.jpg"
+        },
+        "cpTwo":
+        {
+          "id":7,
+          "title":"风尚秀",
+          "imgUrl":"https://img.cniao5.com/5603d92cN9385d720.jpg"
+        },
+        "cpThree":{
+          "id":1,
+          "title":"jd爱生活",
+          "imgUrl":"https://img.cniao5.com/56090154N3b41c965.jpg"
+        },
+        "id":4,
+        "title":"特色市场",
+        "campaignOne":8,
+        "campaignTwo":7,
+        "campaignThree":1
+      },
+      {
+        "cpOne":
+        {
+          "id":14,
+          "title":"品牌特卖",
+          "imgUrl":"https://img.cniao5.com/560a7f4eN6a50f2ca.jpg"
+        },
+        "cpTwo":
+        {
+          "id":13,
+          "title":"品牌秀场",
+          "imgUrl":"https://img.cniao5.com/560a8233N82ab9b6d.jpg"
+        },
+        "cpThree":
+        {
+          "id":12,
+          "title":"最招聘",
+          "imgUrl":"https://img.cniao5.com/560bd9b6Nc4b5cbfe.jpg"
+        },
+        "id":5,
+        "title":"品牌街",
+        "campaignOne":14,
+        "campaignTwo":13,
+        "campaignThree":12
+      },
+      {
+        "cpOne":
+        {
+          "id":9,
+          "title":"玩Bigger",
+          "imgUrl":"https://img.cniao5.com/560be90cN0a2bf923.jpg"
+        },
+        "cpTwo":
+        {
+          "id":10,
+          "title":"1元抢",
+          "imgUrl":"https://img.cniao5.com/560be7d5N03f4731e.jpg"
+        },
+        "cpThree":
+        {
+          "id":16,
+          "title":"打白条",
+          "imgUrl":"https://img.cniao5.com/560a016aNd3d86d3b.jpg"
+        },
+        "id":6,
+        "title":"金融街",
+        "campaignOne":9,
+        "campaignTwo":10,
+        "campaignThree":16
+      }
+    ]
+  }
+}
