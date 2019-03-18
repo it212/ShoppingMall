@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f1f1f1">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="50dp"/>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="#802f4f4f"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/cart_check_box_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:checked="true"
+            android:text="@string/select_all"
+            style="@style/customCheckbox"/>
+
+
+        <TextView
+            android:id="@+id/cart_total_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/cart_check_box_all"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/total"/>
+
+        <Button
+            android:id="@+id/cart_settle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:minHeight="40dp"
+            android:minWidth="85dp"
+            android:text="@string/settle"
+            style="@style/bigRedButton"/>
+
+
+        <Button
+            android:id="@+id/cart_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:minHeight="40dp"
+            android:minWidth="85dp"
+            android:text="@string/delete"
+            style="@style/bigRedButton"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

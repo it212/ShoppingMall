@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/selector_list_item">
+
+    <ImageView
+        android:id="@+id/hot_image_view"
+        android:layout_width="0dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:paddingEnd="2dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:maxLines="2"
+            tools:text="惠普暗影精灵"/>
+
+        <TextView
+            android:id="@+id/text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/fire_brick"
+            tools:text="￥5979.0"/>
+
+        <Button
+            android:id="@+id/buy_button"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            style="@style/bigRedButton"
+            android:layout_marginTop="10dp"
+            android:text="@string/buy_now"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="end|bottom" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

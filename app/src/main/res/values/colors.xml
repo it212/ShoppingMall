@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eb4f38</color>
+    <color name="colorPrimaryDark">#eb4f38</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Color for tab text -->
+    <color name="color_text_pressed">#eb4f38</color>
+    <color name="color_text_common">#a9b7b7</color>
+
+    <color name="color_divider_line">#f1f1f1</color>
+
+    <!-- 暗金黄色 -->
+    <color name="fire_brick">#b22222</color>
+    <!-- 洋李色 -->
+    <color name="gains_boro">#dcdcdc</color>
+    <!-- 纯黑色 -->
+    <color name="black">#000000</color>
+    <!-- 暗灰色 -->
+    <color name="dark_grey">#a9a9a9</color>
+    <!-- 灰色 -->
+    <color name="gray">#808080</color>
+    <!-- 金黄色 -->
+    <color name="gold_yellow">#ff9428</color>
+    <!-- 暗深红色 -->
+    <color name="crimson">#dc143c</color>
+
+    <color name="bg_color">#f1f1f1</color>
+    <color name="green_btn_color_pressed">#ff298409</color>
+    <color name="red_btn_color_normal">#ffff5454</color>
+    <color name="red_btn_color_pressed">#ffd24242</color>
+    <color name="red_btn_color_disable">#7fff5454</color>
+    <color name="grey_btn_color_normal">#fff1f1f1</color>
+    <color name="grey_btn_color_pressed">#ffd8d8d8</color>
+    <color name="grey_btn_color_disable">#7fd8d8d8</color>
+    <color name="grey_btn_stroke_color_normal">#ffbebebe</color>
+    <color name="grey_btn_stroke_color_pressed">#ff9e9e9e</color>
+    <color name="grey_btn_stroke_color_disable">#7f9e9e9e</color>
+    <color name="black_btn_color_normal">#00000000</color>
+    <color name="black_btn_color_pressed">#00000000</color>
+    <color name="black_btn_color_disable">#00000000</color>
+    <color name="black_btn_stroke_color_normal">#ffcfcfcf</color>
+    <color name="black_btn_stroke_color_pressed">#ff353535</color>
+    <color name="black_btn_stroke_color_disable">#7fcfcfcf</color>
+    <color name="normal_text_color">#ff353535</color>
+    <color name="normal_text_color_disable">#7f353535</color>
+    <color name="white_color_disable">#7fffffff</color>
+</resources>
