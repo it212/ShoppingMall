@@ -167,7 +167,7 @@ public class CartPagerAdapter extends RecyclerView.Adapter<CartPagerAdapter.View
                     // 如果没有被选中，为了在完成编辑之后能够正确显示价格，需要对
                     // 未选中的 item 进行一次选中更新
                     item.setIsChecked(true);
-                    mCartProvider.put(item);
+                    mCartProvider.update(item);
                 }
             }
             // 更新价格所在视图
